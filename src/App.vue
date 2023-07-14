@@ -1,26 +1,129 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBar/>
+
+<!-- HERO SECTION -->
+
+<section class="hero-container">
+  <h1 class="hero-text bold">WELCOME TO RESTAURANT</h1>
+  <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius quam aliquid fugiat obcaecati laboriosam!</p>
+</section>
+
+<!-- ABOUT US SECTION -->
+
+<section class="about-container">
+  <div class="about-text">
+    <h2>Our Story</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+      Dolor ab sapiente aut fuga quae qui iusto dolorem consectetur natus atque.
+    </p>
+    <a href="#about" class="btn-about btn">About us</a>
+  </div>
+</section>
+
+<!-- MENU SECTION -->
+
+<section class="menu-container">
+
+  <div class="menu-box">
+    <h2>Food Varieties</h2>
+    <h2>OUR MENU</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
+      Aliquam placeat autem ipsum error in.<br/>
+      Neque at nihil perferendis officiis ut nisi doloribus ex,<br/>
+      iusto voluptatum voluptates,<br/>
+      placeat tenetur quasi eum.
+      </p>
+      <a class="btn btn-menu" href="#menu">VIEW MENU</a>
+  </div>
+
+</section>
+
+<!-- WEEKLY SECTION -->
+
+<section class="weekly-container">
+  <div class="weekly">
+    <h2>WEEKLY SPECIALS</h2>
+    <ul>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+      <li class="weekly-item">FOOD</li>
+    </ul>
+  </div>
+</section>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBar,
   }
 }
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#app{
+  margin: 0;
+  padding: 0;
 }
+
+/* HERO SECTION */
+
+.hero-container {
+  /* background-image: none; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  background-color:aliceblue ;
+}
+
+.hero-text{
+  font-size: 1.25em;
+}
+
+.bold {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+/* ABOUT US SECTION */
+.about-container {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-about {
+  position: relative;
+  left: 50%;
+}
+
+/* MENU SECTION */
+
+.menu-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
 </style>
