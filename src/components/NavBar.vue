@@ -10,28 +10,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
+@import '../assets/main.css';
 
-.nav-container {
-    position: sticky;
-    top: 0;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-elements {
-    width: 50%;
-    position: relative;
-
-    display: flex;
-    flex-direction: row;
-
-}
-.nav {
-    margin: auto;
-}
-.logo {
-    font-size: 3.75em;
-}
 </style>
