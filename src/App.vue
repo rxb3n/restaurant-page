@@ -1,13 +1,6 @@
 <template>
   <NavBar/>
-
-<!-- HERO SECTION -->
-
-<section class="hero-container">
-  <h1 class="hero-text bold">WELCOME TO RESTAURANT</h1>
-  <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius quam aliquid fugiat obcaecati laboriosam!</p>
-</section>
-
+  <HeroView></HeroView>
 <!-- ABOUT US SECTION -->
 
 <section class="about-container">
@@ -63,11 +56,13 @@
 
 <script>
 import NavBar from './components/NavBar.vue';
+import HeroView from './components/HeroView.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    HeroView,
   }
 }
 
@@ -79,21 +74,7 @@ export default {
   padding: 0;
 }
 
-/* HERO SECTION */
 
-.hero-container {
-  /* background-image: none; */
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 5%;
-  background-color:aliceblue ;
-}
-
-.hero-text{
-  font-size: 1.25em;
-}
 
 .bold {
   font-size: 2em;

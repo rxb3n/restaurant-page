@@ -10,7 +10,8 @@
     top: 0;
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 225px;
 }
 
 .nav-elements {
@@ -22,10 +23,46 @@
 
 }
 .nav {
-    margin: auto;
+    margin: 10px;
+    text-transform: uppercase;
 }
 .logo {
     font-size: 3.75em;
 }
 
 /* style for navbar */
+/* style for hero */
+
+.hero-container {
+  /* background-image: none; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  background-color:aliceblue ;
+}
+
+.hero-text{
+  font-size: 1.25em;
+}
+
+.hero-container img {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  max-height: 800px; /* Ajustez la hauteur maximale selon vos besoins */
+  object-fit: cover; /* Contrôle la façon dont l'image est ajustée à la taille spécifiée */
+}
+.btn-reservation {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-reservation:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* style for hero */
