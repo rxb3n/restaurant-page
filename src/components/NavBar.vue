@@ -8,9 +8,11 @@
             <ul class="nav">NEWS</ul>
             <ul class="nav">EVENTS</ul>
             <ul class="nav">DELIVERY</ul>
-            <button class="btn-reservation">RESERVATION</button>
+            
         </div>
+        <a class="btn-nav">RESERVATION</a>
     </div>
+    
 </template>
 
 <style scoped>

@@ -1,9 +1,14 @@
 <template>
 
   <section class="hero-container">
-  <img src="../assets/thumbnail_image003.jpg" alt="photo_canari">
-  <h1 class="hero-text bold">WELCOME TO CANARI</h1>
-  <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius quam aliquid fugiat obcaecati laboriosam!</p>
+  
+    <img src="../assets/thumbnail_image003.jpg" alt="photo_canari">
+  
+  <div class="hero-text">
+    <h1 class="">WELCOME TO CANARI</h1>
+    <p class="">Découvrez nos délicieux plats et profitez d'une expérience culinaire exceptionnelle.</p>
+  </div>
+  
 </section>
 
 </template>

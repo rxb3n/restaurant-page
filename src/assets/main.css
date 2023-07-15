@@ -1,17 +1,31 @@
-:root{
-    --primary-font-family: ;
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
+:root{
+    --primary-font-family: 'Lumanosimo', sans-serif;
+}
+
+body{
+  font-family: var(--primary-font-family);
 }
 
 /* style for navbar */
 
-.nav-container {
+/* .nav-container {
     position: sticky;
     top: 0;
     background-color: white;
     display: flex;
     justify-content: space-between;
     margin-left: 225px;
+} */
+
+.nav-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .nav-elements {
@@ -25,44 +39,65 @@
 .nav {
     margin: 10px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav:hover{
+  color: #f2cb25;
+  transition: all 0.5s;
 }
 .logo {
     font-size: 3.75em;
 }
+/* style bouton navbar */
+.btn-nav {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 10px ;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.btn-nav:hover {
+  background-color: #f2cb25;
+  color: black;
+}
+
+.btn-nav:focus{
+  background-color: black;
+  transition: none;
+}
+
+
+/* style bouton navbar */
 
 /* style for navbar */
 /* style for hero */
 
 .hero-container {
-  /* background-image: none; */
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 5%;
-  background-color:aliceblue ;
+  text-align: center;
 }
 
-.hero-text{
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 1.25em;
+  color: white;
 }
 
 .hero-container img {
-  width: 100%; /* Ajustez la largeur selon vos besoins */
-  max-height: 800px; /* Ajustez la hauteur maximale selon vos besoins */
-  object-fit: cover; /* Contrôle la façon dont l'image est ajustée à la taille spécifiée */
-}
-.btn-reservation {
-  background-color: transparent;
-  border: 2px solid #000;
-  color: #000;
-  padding: 10px 20px;
-  transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
 }
 
-.btn-reservation:hover {
-  background-color: #000;
-  color: #fff;
-}
 
 /* style for hero */
