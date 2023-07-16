@@ -58,7 +58,7 @@
             <h3>RESERVATION</h3>
             <p>Lorem ipsum dolor sit  <br/>
                 Nesciunt fuga ipsam facilis maiores sunt iure?</p>
-                <p>+225 55 55 55 55</p>
+                <p>+225 00 00 00</p>
         </div>
 
     </div>

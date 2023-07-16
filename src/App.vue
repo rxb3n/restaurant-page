@@ -5,7 +5,7 @@
 
 <section class="about-container">
   <div class="about-text">
-    <h2>Our Story</h2>
+    <h2>Notre Histoire</h2>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
       Dolor ab sapiente aut fuga quae qui iusto dolorem consectetur natus atque.
@@ -19,38 +19,56 @@
 <section class="menu-container">
 
   <div class="menu-box">
-    <h2>Food Varieties</h2>
-    <h2>OUR MENU</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
-      Aliquam placeat autem ipsum error in.<br/>
-      Neque at nihil perferendis officiis ut nisi doloribus ex,<br/>
-      iusto voluptatum voluptates,<br/>
-      placeat tenetur quasi eum.
-      </p>
-      <a class="btn btn-menu" href="#menu">VIEW MENU</a>
+    <h2>NOS SAUCES (3000 CFA)</h2>
+    <div class="menu-item" >
+      <p>Sauce Gombo (Kopè)</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="menu-item" >
+      <p>Sauce Arachide</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="menu-item" >
+      <p>Sauce Graine</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="menu-item" >
+      <p>Sauce Feuille</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="menu-item" >
+      <p>Sauce Tomate Cocktail</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="menu-item" >
+      <p>Sauce Gouagouassou</p>
+      <p id="text-secondary">Lorem ipsum dolor sit amet.</p>
+    </div>
+    
+      <a class="btn btn-menu" href="#menu">VOIR MENU COMPLET</a>
+  </div>
+
+  <div class="menu-img">
+    <img src="./assets/thumbnail_image004.jpg" height="735" width="380">
   </div>
 
 </section>
 
-<!-- WEEKLY SECTION -->
+<section>
+  <div class="accomp-container">
+    <h3>ACCOMPAGNEMENTS (1000 CFA)</h3>
+    <div class="accomp-items">
+      <p>Foutou</p>
+      <p>Foufou</p>
+      <p>Placali</p>
+      <p>Akassa</p>
+      <p>Kabato</p>
+      <p>etc...</p>
+    </div>
 
-<section class="weekly-container">
-  <div class="weekly">
-    <h2>WEEKLY SPECIALS</h2>
-    <ul>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-      <li class="weekly-item">FOOD</li>
-    </ul>
   </div>
 </section>
+
 
 <FooterView/>
 
@@ -73,16 +91,26 @@ export default {
 </script>
 
 <style>
-#app{
-  margin: 0;
-  padding: 0;
+#text-secondary {
+  font-size: 0.75em;
+  color: grey;
 }
-
-
-
 .bold {
   font-size: 2em;
   font-weight: 800;
+}
+
+.btn {
+  margin-top: 2%;
+  border: 3px solid black;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
 
 /* ABOUT US SECTION */
@@ -101,14 +129,44 @@ export default {
 /* MENU SECTION */
 
 .menu-container {
+  background-image: url(./assets/thumbnail_image003.jpg);
   margin-top: 5%;
   display: flex;
   justify-content: center;
+  height: 1250px;
+  margin-bottom: 1%;
+
+}
+
+.menu-box {
+  background-color: white;
+  height: fit-content;
+  position: relative;
+  top: 20%;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-img {
+  position: relative;
+  top: 20%;
 }
 
 a{
   color: black;
   text-decoration: none;
+}
+
+/* ACCOMPAGNEMENTS */
+.accomp-container {
+  background-image: url(./assets/thumbnail_image002.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 2%;
 }
 
 </style>

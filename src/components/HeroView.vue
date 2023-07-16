@@ -5,7 +5,7 @@
     <img src="../assets/thumbnail_image003.jpg" alt="photo_canari">
   
   <div class="hero-text">
-    <h1 class="">WELCOME TO CANARI</h1>
+    <h1 class="">BIENVENUE CHEZ CANARI</h1>
     <p class="">Découvrez nos délicieux plats et profitez d'une expérience culinaire exceptionnelle.</p>
   </div>
   
