@@ -1,4 +1,5 @@
 <template>
+  <!-- NAVBAR AND HERO SECTION -->
   <NavBar/>
   <HeroView></HeroView>
 <!-- ABOUT US SECTION -->
@@ -54,21 +55,33 @@
 
 </section>
 
+<!-- ACCOMPAGNEMENTS SECTION -->
+
 <section>
   <div class="accomp-container">
-    <h3>ACCOMPAGNEMENTS (1000 CFA)</h3>
-    <div class="accomp-items">
+
+    <div class="accomp-box">
+      <h3>ACCOMPAGNEMENTS (1000 CFA)</h3>
+      <div class="accomp-items">
       <p>Foutou</p>
       <p>Foufou</p>
       <p>Placali</p>
       <p>Akassa</p>
       <p>Kabato</p>
-      <p>etc...</p>
+      <button class="btn btn-accomp">VOIR PLUS</button>
     </div>
 
+    </div>
   </div>
 </section>
 
+<!-- CAROUSEL IMAGES SECTION -->
+
+<section>
+  <GridView/>
+</section>
+
+<!-- FOOTER -->
 
 <FooterView/>
 
@@ -78,6 +91,7 @@
 import NavBar from './components/NavBar.vue';
 import HeroView from './components/HeroView.vue';
 import FooterView from './components/FooterView.vue';
+import GridView from "./components/GridView.vue";
 
 export default {
   name: 'App',
@@ -85,6 +99,7 @@ export default {
     NavBar,
     HeroView,
     FooterView,
+    GridView,
   }
 }
 
@@ -101,6 +116,7 @@ export default {
 }
 
 .btn {
+  background-color: white;
   margin-top: 2%;
   border: 3px solid black;
   padding: 10px;
@@ -134,7 +150,6 @@ export default {
   display: flex;
   justify-content: center;
   height: 1250px;
-  margin-bottom: 1%;
 
 }
 
@@ -161,12 +176,23 @@ a{
 
 /* ACCOMPAGNEMENTS */
 .accomp-container {
+  height: 500px;
   background-image: url(./assets/thumbnail_image002.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+}
+
+.accomp-box {
+  position: relative;
+  top: 10%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
 }
 
 </style>

@@ -105,6 +105,20 @@ body{
   object-fit: cover;
 }
 
+/* CAROUSEL SECTION */
+
+.carousel-container {
+  padding-bottom: 5%;
+}
+
+.carousel-img {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.carousel-img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
 
 /* style for hero */
 
@@ -176,3 +190,4 @@ justify-content: space-between;
 align-items: flex-start;
 width: 50%;
 }
+
