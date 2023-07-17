@@ -2,7 +2,7 @@
 
   <section class="hero-container">
   
-    <img src="../assets/thumbnail_image003.jpg" alt="photo_canari">
+    <img class="hero-bg" src="../assets/thumbnail_image003.jpg" alt="photo_canari">
   
   <div class="hero-text">
     <h1 class="">BIENVENUE CHEZ CANARI</h1>
