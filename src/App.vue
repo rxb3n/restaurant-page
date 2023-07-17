@@ -50,7 +50,7 @@
   </div>
 
   <div class="menu-img">
-    <img src="./assets/thumbnail_image004.jpg" height="742" width="380">
+    <img src="./assets/thumbnail_image004.jpg" height="768" width="480">
   </div>
 
 </section>
