@@ -2,18 +2,7 @@
   <!-- NAVBAR AND HERO SECTION -->
   <NavBar/>
   <HeroView></HeroView>
-<!-- ABOUT US SECTION -->
 
-<section class="about-container">
-  <div class="about-text">
-    <h2 class="text-primary" >Notre Histoire</h2>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-      Dolor ab sapiente aut fuga quae qui iusto dolorem consectetur natus atque.
-    </p>
-    <a href="#about" class="btn-about btn">About us</a>
-  </div>
-</section>
 
 <!-- MENU SECTION -->
 
@@ -50,14 +39,7 @@
   </div>
 
   <div class="menu-img">
-    <img src="./assets/thumbnail_image004.jpg" height="768" width="480">
-  </div>
-
-</section>
-
-<!-- ACCOMPAGNEMENTS SECTION -->
-
-<section>
+    <section>
   <div class="accomp-container">
 
     <div class="accomp-box">
@@ -68,12 +50,33 @@
       <p>Placali</p>
       <p>Akassa</p>
       <p>Kabato</p>
-      <button class="btn btn-accomp">VOIR PLUS</button>
     </div>
 
     </div>
   </div>
 </section>
+  </div>
+
+</section>
+
+<section class="action-container">
+  <div class="action-text">
+    <h2 class="text-primary" >REJOIGNEZ-NOUS</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+      Dolor ab sapiente aut fuga quae qui iusto dolorem consectetur natus atque.
+    </p>
+    <a href="#about" class="btn-action btn">Contactez-nous</a>
+  </div>
+</section>
+
+<section>
+  <div class="video-container">
+
+  </div>
+</section>
+
+
 
 <!-- CAROUSEL IMAGES SECTION -->
 
@@ -130,15 +133,16 @@ export default {
 }
 
 /* ABOUT US SECTION */
-.about-container {
+.action-container {
   padding-top: 2%;
+  padding-bottom: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.btn-about {
+.btn-action {
   position: relative;
 }
 
@@ -149,7 +153,6 @@ export default {
           rgba(0, 0, 0, 0.2), 
           rgba(0, 0, 0, 0.4)
         ), url(./assets/thumbnail_image003.jpg);
-  margin-top: 5%;
   display: flex;
   justify-content: center;
   height: 1250px;
@@ -180,10 +183,6 @@ a{
 /* ACCOMPAGNEMENTS */
 .accomp-container {
   height: 500px;
-  background: linear-gradient(
-          rgba(0, 0, 0, 0.7), 
-          rgba(0, 0, 0, 0.7)
-        ), url(./assets/thumbnail_image002.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;

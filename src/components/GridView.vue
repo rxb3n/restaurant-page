@@ -10,11 +10,11 @@
         @swiper="onSwiper"
         @slideChange="onSlideChange"
         >
-        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image002.jpg" height="500" width="600"></swiper-slide>
-        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image001.jpg" height="500" width="600"></swiper-slide>
-        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image003.jpg" height="500" width="600"></swiper-slide>
-        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image004.jpg" height="500" width="600"></swiper-slide>
-        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_IMG_4548.jpg" height="500" width="600"></swiper-slide>
+        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image002.jpg" ></swiper-slide>
+        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image001.jpg"></swiper-slide>
+        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image003.jpg" ></swiper-slide>
+        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_image004.jpg" ></swiper-slide>
+        <swiper-slide><img class="carousel-img" src="../assets/thumbnail_IMG_4548.jpg" ></swiper-slide>
         ...
         </swiper>
     </div>

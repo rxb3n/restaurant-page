@@ -1,14 +1,15 @@
 <template>
     <div class="nav-container">
+        <div>
+            <ul class="nav logo">CANARI</ul>
+        </div>
         <div class="nav-elements">
             <ul class="nav">ACCUEIL</ul>
             <ul class="nav">MENU</ul>
-            <ul class="nav logo">CANARI</ul>
             <ul class="nav">CONTACT</ul>
-            <ul class="nav">LIVRAISON</ul>
+            <ul class="nav menu"><img src="../assets/menu-icon.png" alt="" height="50" width="50"></ul>
             
         </div>
-        <a class="btn-nav">RESERVATION</a>
     </div>
     
 </template>
