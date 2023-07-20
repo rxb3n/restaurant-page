@@ -5,7 +5,7 @@
             <h3>BIENVENUE A CANARI</h3>
             <p>
                 Bonjour, et bienvenue au restaurant Canari, <br/>
-                ou vous pourrez savourer une cuisine française authentique et raffinée.
+                ou vous pourrez savourer une cuisine africaine authentique et raffinée.
                  <br/>
                 Nous sommes heureux de vous accueillir <br/>
                 et de vous faire découvrir nos spécialités.<br/>

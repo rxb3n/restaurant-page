@@ -1,11 +1,11 @@
 <template>
   <!-- NAVBAR AND HERO SECTION -->
   <NavBar/>
-  <HeroView></HeroView>
+  <HeroView id="section-0"></HeroView>
 
 <!-- VIDEO SECTION -->
 
-<section>
+<section id="section-1">
   <div class="video-container">
     <video class="video-main" autoplay muted playsinline loop>
       <source src="./assets/video-main.mp4" type="video/mp4">
@@ -15,7 +15,7 @@
 
 <!-- MENU SECTION -->
 
-<section class="menu-container">
+<section class="menu-container" id="section-2">
 
   <div class="menu-box">
 
@@ -79,15 +79,11 @@
 
 
   <div class="menu-img">
-    <section>
-
-  
-</section>
   </div>
 
 </section>
 
-<section class="action-container">
+<section class="action-container"  id="section-3">
   <div class="action-text">
     <h2 class="text-primary" >REJOIGNEZ-NOUS</h2>
     <p>
@@ -98,17 +94,11 @@
   </div>
 </section>
 
-<section>
-  <div class="video-container">
-
-  </div>
-</section>
-
 
 
 <!-- CAROUSEL IMAGES SECTION -->
 
-<section>
+<section  id="#section-4">
   <GridView/>
 </section>
 
