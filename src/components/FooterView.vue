@@ -4,10 +4,11 @@
         <div class="footer-right">
             <h3>BIENVENUE A CANARI</h3>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br/>
-                Natus perferendis quis placeat aliquid, reprehenderit mollitia repudiandae facere, <br/>
-                consequatur doloremque amet impedit molestiae. <br/>
-                Doloremque fuga tempora incidunt eum quidem aspernatur laudantium!<br/>
+                Bonjour, et bienvenue au restaurant Canari, <br/>
+                ou vous pourrez savourer une cuisine française authentique et raffinée.
+                 <br/>
+                Nous sommes heureux de vous accueillir <br/>
+                et de vous faire découvrir nos spécialités.<br/>
             </p>
             <h1>CANARI</h1>
             <div class="footer-socials">
@@ -19,7 +20,7 @@
 
         <div class="footer-middle">
             <h3>HEURES D'OUVERTURES</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, officia?</p>
+            <p>Nous sommes ouverts tous les jours de 11 heures à 23 heures</p>
 
             <div class="hours-lunch">
 
@@ -70,9 +71,9 @@
 
         <div class="footer-left">
             <h3>RESERVATION</h3>
-            <p>Lorem ipsum dolor sit  <br/>
-                Nesciunt fuga ipsam facilis maiores sunt iure?</p>
-                <p>+225 00 00 00</p>
+            <p>Situé dans la zone du nouveau CHU  <br/>
+                immeuble Valencia à droite.</p>
+                <p>+225 07 07 56 31 97</p>
         </div>
 
     </div>

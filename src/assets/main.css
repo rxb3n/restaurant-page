@@ -113,6 +113,21 @@ body{
   object-fit: cover;
 }
 
+.video-container {
+  width: 100vw;
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  filter: brightness(50%);
+}
+
+.video-main {
+  width: 100%;
+  height: 800px;
+  object-fit: fill;
+  position: absolute;
+}
+
 /* CAROUSEL SECTION */
 
 .carousel-container {
@@ -204,6 +219,8 @@ width: 50%;
   height: 500px;
   width: 600px;
 }
+
+/* RESPONSIVE */
 
 @media only screen and (max-width: 750px) {
   .nav {

@@ -3,13 +3,25 @@
   <NavBar/>
   <HeroView></HeroView>
 
+<!-- VIDEO SECTION -->
+
+<section>
+  <div class="video-container">
+    <video class="video-main" autoplay muted playsinline loop>
+      <source src="./assets/video-main.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
 
 <!-- MENU SECTION -->
 
 <section class="menu-container">
 
   <div class="menu-box">
-    <h2 class="text-primary" >NOS SAUCES (3000 CFA)</h2>
+
+    <div class="sauces">
+
+      <h2 class="text-primary" >NOS SAUCES (3000 CFA)</h2>
     <div class="menu-item" >
       <p>Sauce Gombo (Kopè)</p>
       <p id="text-secondary">Sauce gluante à base de gombo frais ou secs.</p>
@@ -34,26 +46,42 @@
       <p>Sauce Gouagouassou</p>
       <p id="text-secondary"> Une sauce onctueuse et parfumée à base de deux sauces mélangées: <br> une sauce aux gombos et une sauce à l’aubergine..</p>
     </div>
-    
+
+    <div class="btn-menu-container">
       <a class="btn btn-menu" href="#menu">VOIR MENU COMPLET</a>
+    </div>
+
+    </div>
+
+    <div class="accomp-container">
+
+<div class="accomp-box">
+  <h3 class="text-primary">ACCOMPAGNEMENTS (1000 CFA)</h3>
+  <div class="accomp-items">
+  <p>Foutou</p>
+  <p>Foufou</p>
+  <p>Placali</p>
+  <p>Akassa</p>
+  <p>Kabato</p>
+</div>
+
+</div>
+</div>
+
+
+    
+
+
   </div>
+
+
+
+
 
   <div class="menu-img">
     <section>
-  <div class="accomp-container">
 
-    <div class="accomp-box">
-      <h3 class="text-primary">ACCOMPAGNEMENTS (1000 CFA)</h3>
-      <div class="accomp-items">
-      <p>Foutou</p>
-      <p>Foufou</p>
-      <p>Placali</p>
-      <p>Akassa</p>
-      <p>Kabato</p>
-    </div>
-
-    </div>
-  </div>
+  
 </section>
   </div>
 
@@ -126,6 +154,15 @@ export default {
   transition: 0.2s;
 }
 
+.btn-menu {
+
+}
+
+.btn-menu-container {
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
 
 .btn:hover {
   background-color: black;
@@ -167,7 +204,7 @@ export default {
   padding: 3%;
   display: flex;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .menu-img {
@@ -191,7 +228,6 @@ a{
 
 .accomp-box {
   position: relative;
-  top: 10%;
   background-color: white;
   color: black;
   display: flex;
