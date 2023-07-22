@@ -48,7 +48,7 @@
     </div>
 
     <div class="btn-menu-container">
-      <a class="btn btn-menu" href="#menu">VOIR MENU COMPLET</a>
+      <a class="btn btn-menu" href="/menu.html">VOIR MENU COMPLET</a>
     </div>
 
     </div>
@@ -113,6 +113,7 @@ import NavBar from './components/NavBar.vue';
 import HeroView from './components/HeroView.vue';
 import FooterView from './components/FooterView.vue';
 import GridView from "./components/GridView.vue";
+/* import menuView from "./components/menu.vue"; */
 
 export default {
   name: 'App',
@@ -121,6 +122,7 @@ export default {
     HeroView,
     FooterView,
     GridView,
+    /* menuView, */
   }
 }
 
